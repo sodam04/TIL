@@ -1,5 +1,5 @@
 
-# Swift UI 🍓
+# Swift UI 🍊
 
 ```json
 Swift는 기본적으로 iOS를 개발 할 때 사용하는 대표적인 언어
