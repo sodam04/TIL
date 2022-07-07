@@ -28,3 +28,4 @@ stateless 클라이언트 - 서버 커뮤니케이션
 구성요소 간 통합 인터페이스
 요청 정보를 검색하는데 관련된 서버의 유형을 클라이언트가 볼 수 없는 계층구조
 ```
+https://pinnate-menu-22b.notion.site/4-RESTful-API-b913981a32204e46a8b8858eb58d804e
