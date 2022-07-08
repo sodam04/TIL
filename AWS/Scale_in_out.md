@@ -1,4 +1,4 @@
-# Scale in/out & up/down 🍑
+# Scale in/out & up/down 🍇
 
 AWS Scale을 이용하기 위한 사전 조건 
 
