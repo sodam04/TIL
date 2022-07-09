@@ -1,2 +1,2 @@
 # TIL
-sodam's Today I Learned 
+Sodam's Today I Learned 
