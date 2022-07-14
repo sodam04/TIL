@@ -18,3 +18,4 @@ Jenkins
 Tekton Pipelines
 Spinnaker
 ```
+https://pinnate-menu-22b.notion.site/11-CI-CD-792b50d1193a4c77ab085acc1bdc8803
