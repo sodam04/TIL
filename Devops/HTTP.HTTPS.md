@@ -13,4 +13,3 @@ HTTPS는 SSL 위에 HTTP를 얹어서 보안이 보장된 통신만을 하는 �
 SSL인증서의 차이라고 생각하면 간단하다.
 ```
 https://pinnate-menu-22b.notion.site/12-http-VS-https-69495c5a00944f68aa55d8131cb1deb6
-
