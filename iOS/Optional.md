@@ -1,4 +1,4 @@
-# Optional
+# Optional 🥞
 
 Swift가 가지고 있는 가장 큰 특징 Optional 옵셔널.
 
@@ -25,5 +25,26 @@ Swift 컴파일러는 안전을 위해 `requiredEmail`에는 옵셔널로 선�
 # ****Optional Chaining****
 
 옵셔널 체이닝은 옵셔널의 속성에 접근할 때, 옵셔널 바인딩 과정을 `?` 키워드로 줄여주는 역할을 한다.
+
+# 옵셔널 벗기기
+
+옵셔널에 값이 있다고 가정하고 값에 바로 접근할 수 있도록 도와주는 키워드인 `!`를 붙여서 사용한다.
+
+```
+print(optionalEmail) // Optional("sodam@gmail.com")
+print(optionalEmail!) // sodam@gmail.com
+```
+
+`!`를 사용할 때에는 주의할 점이 있는데, 옵셔널의 값이 `nil`인 경우에는 런타임 에러가 발생한다.
+
+런타임 에러가 발생하면 iOS 앱은 강제로 종료(크래시)된다.
+
+# ****Implicitly Unwrapped Optional****
+
+옵셔널을 정의할 때 `?` 대신 `!`를 붙이면 암묵적으로 벗겨진 옵셔널로 인식된다.
+
+정의된 옵셔널은 `nil`을 포함할 수 있는 옵셔널이긴 하며 접근할 때 옵셔널 바인딩이나 옵셔널을 벗기는 과정을 거치지 않고도 바로 값에 접근할 수 있다는 점에서 일반적인 옵셔널과의 차이점이다.
+
+일반적인 옵셔널을 사용해서 정의하고, 옵셔널 바인딩 또는 옵셔널 체이닝을 통해 값에 접근하는 것이 좋다.
 
 https://pinnate-menu-22b.notion.site/13-Optional-68ec8af6a37a4668b79009dbc48fa150
